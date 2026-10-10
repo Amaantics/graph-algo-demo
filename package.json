@@ -1,0 +1,13 @@
+{
+  "name": "graph-algo-demo",
+  "version": "1.0.0",
+  "description": "Interactive step-by-step visualizer for Kruskal's, Prim's and Dijkstra's algorithms",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "python3 -m http.server 8000 --directory public",
+    "test": "node --test"
+  },
+  "author": "Amaan Sayyed",
+  "license": "MIT"
+}

@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: graph-algo-demo
+    runtime: static
+    buildCommand: npm test
+    staticPublishPath: ./public
+    headers:
+      - path: /*
+        name: Cache-Control
+        value: public, max-age=300
